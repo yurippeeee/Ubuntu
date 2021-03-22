@@ -1,0 +1,5 @@
+lubuntu20.04で日本語入力する方法
+
+sudo apt update
+sudo apt install fcitx-mozc (デフォルトでfcitxが入っているため)
+一度ログアウトしてログインし直すと日本語入力が可能になる

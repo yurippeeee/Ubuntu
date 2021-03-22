@@ -1,0 +1,7 @@
+vscodeのインストール方法
+
+sudo apt install ./公式サイトからダウンロード.debファイル
+sudo apt install -y apt-transport-https
+sudo apt update
+
+32bit版はhttps://qiita.com/satokaz/items/02f596b96c377e40ce8fで入手可能

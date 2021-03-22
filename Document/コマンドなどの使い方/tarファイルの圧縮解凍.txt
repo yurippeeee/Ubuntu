@@ -1,0 +1,19 @@
+tar.gz
+圧縮 tar -zcvf 圧縮先ファイル名.tar.gz ディレクトリ
+解凍 tar -zxvf 圧縮ファイル名.tar.gz
+
+tar.bz2
+圧縮 tar -jcvf 圧縮先ファイル名.tar.bz2 ディレクトリ
+解凍 tar -jxvf 圧縮ファイル名.tar.bz2
+
+tar.xz
+圧縮 tar -Jcvf 圧縮先ファイル名.tar.xz ディレクトリ
+解凍 tar -Jxvf 圧縮ファイル名.tar.xz
+
+tar
+圧縮 tar -cvf 圧縮先ファイル名.tar ディレクトリ
+解凍 tar -xvf 圧縮ファイル名.tar
+
+zip
+圧縮 zip -r 圧縮先ファイル名.zip ディレクトリ
+解凍 unzip 圧縮ファイル名.zip (Windowsで日本語ファイル名をzip圧縮したものは文字化けする可能性があるため、unar 圧縮ファイル名.zipで解凍する)

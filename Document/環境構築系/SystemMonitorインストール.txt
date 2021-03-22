@@ -1,0 +1,4 @@
+シスモニのインストール
+
+sudo apt install gnome-system-monitor
+gnome-system-monitor　で起動

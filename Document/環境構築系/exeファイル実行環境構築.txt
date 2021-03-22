@@ -1,0 +1,3 @@
+Windowsソフトをシミュレートできるplayonlinuxのインストール
+sudo apt install playonlinux
+LC-ALL=C playonlinux （デフォルトは日本語表示でバグるため、英語に切り替え）

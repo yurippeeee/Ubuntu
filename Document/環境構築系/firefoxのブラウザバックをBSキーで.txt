@@ -1,0 +1,4 @@
+firefoxのブラウザバックをBSキーでできるようにする
+
+about:configと検索ボックスに入力
+backspace_actionを検索し、0に設定

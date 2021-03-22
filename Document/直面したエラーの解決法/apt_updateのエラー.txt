@@ -1,0 +1,4 @@
+エラー内容　ppa.launchpad.net/texlive-backports/ppa/ubuntu bionic Release には Release ファイルがありません。
+
+解決策
+　ソフトウェアとアップデートを開き、「他のソフトウェア」タブのチェックリストで悪さしてそうな項目のチェックを外す

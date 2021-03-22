@@ -1,0 +1,6 @@
+コマンド sudo apt upgrade
+エラー　E: ロック /var/lib/dpkg/lock-frontend が取得できませんでした - open (11: リソースが一時的に利用できません)
+解決策
+　sudo rm /var/lib/apt/lists/lock
+　sudo rm /var/lib/dpkg/lock
+　sudo rm /var/lib/dpkg/lock-frontend

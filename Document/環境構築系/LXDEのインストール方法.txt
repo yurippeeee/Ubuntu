@@ -1,0 +1,7 @@
+LXDEのインストール方法
+
+sudo apt -y install lubuntu-core
+sudo apt -y install lubuntu-desktop
+sudo apt -y install lxde-common
+sudo apt -y install lxde-core
+sudo apt -y install lxde

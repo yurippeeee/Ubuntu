@@ -1,0 +1,4 @@
+lubuntu20.04で/home内のフォルダ名を英語表記にする方法(注：中のファイルやフォルダは消える)
+
+sudo apt install xdg-user-dirs-gtk
+LANG=C xdg-user-dirs-gtk-update

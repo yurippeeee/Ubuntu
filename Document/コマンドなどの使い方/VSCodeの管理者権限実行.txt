@@ -1,0 +1,2 @@
+Visual Studio Codeを管理者権限で実行する方法
+sudo code --user-data-dir

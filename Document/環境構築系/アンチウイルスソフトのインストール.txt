@@ -1,0 +1,13 @@
+アンチウイルスソフトclamavのインストール
+
+sudo apt install clamav clamav-daemon
+sudo rm /var/log/clamav/freshclam.log
+sudo touch /var/log/clamav/freshclam.log
+sudo chown clamav:clamav /var/log/clamav/freshclam.log
+
+/etc/logrotate.d/clamav-freshclam　の
+create 640 clamav admを
+create 640 clamav clamavに変更
+
+sudo freshclam　でウイルス定義の更新
+sudo clamscan --infected --remove --recursive /home 　でウイルスチェックの実行
